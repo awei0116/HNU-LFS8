@@ -1,11 +1,12 @@
 
-<div align="center">
 <h1> LFS8: A Lightweight and Robust Light Field Semantic Segmentation Network Based on Selective Scanning Structural State Sequence Space </h1>
 
 ## 👀Introduction
 Abstract:Efficient modeling of 4D light fields for precise semantic segmentation has recently faced challenges in capturing long-range dependency information (CNN-based) and the secondary computational complexity memory constraints (Transformer-based), which limit the utilization of multi-angular spatial information and the overall performance development. In this paper, we introduce LFS8, a novel light field semantic segmentation network based on the Selective Scanning Structural State Space Sequence Model (Mamba). LFS8 consists of an SSM-based encoder and a channel-aware decoder, designed to model and explore the rich spatial contextual information, complementary angular information, and structural information of light fields. To enhance LFS8's ability to handle complex lighting noise and tiny targets in real-world scenarios, we also introduce a scene depth information branch and design an SSM-based cross-fusion enhancement module to fuse and enhance the representation of multimodal multi-view light field information. This approach achieves high accuracy and robustness in semantic segmentation, accompanied by lower memory and computational complexity. Comprehensive experimental results on synthetic datasets and real-world datasets demonstrate the absolute superiority and effectiveness of the proposed LFS8, providing insightful strategies for efficiently utilizing and modeling large amounts of spatial angular information in light fields.
 
 ![](figs/LFS8.png)
+
+## 👀Results
 ![](figs/UrbanLF_Real.png)
 ![](figs/UrbanLF_Syn.png)
 
@@ -42,7 +43,7 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 
     Note: The central and peripheral views need to be extracted from the original data set and grayscale values processed on RGB labels
 
-2. We also provide the processed datasets we use here: [Google Drive Link](https://pan.baidu.com/s/1zCmVnQ7jiZ2nH3sYjjpPDg?pwd=5p8i)
+2. We also provide the processed datasets we use here: [Google Drive Link]([https://pan.baidu.com/s/1zCmVnQ7jiZ2nH3sYjjpPDg?pwd=5p8i](https://pan.baidu.com/s/1OKVlohVwRfTX3c4kM9hgXg?pwd=ifcq)
 
 3. If you are using your own datasets, please orgnize the dataset folder in the following structure:
     ```shell
