@@ -43,7 +43,7 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 
     Note: The central and peripheral views need to be extracted from the original data set and grayscale values processed on RGB labels
 
-2. We also provide the processed datasets we use here: [Google Drive Link]([https://pan.baidu.com/s/1zCmVnQ7jiZ2nH3sYjjpPDg?pwd=5p8i](https://pan.baidu.com/s/1OKVlohVwRfTX3c4kM9hgXg?pwd=ifcq))
+2. We also provide the processed datasets we use here: [processed](https://pan.baidu.com/s/1OKVlohVwRfTX3c4kM9hgXg?pwd=ifcq)
 
 3. If you are using your own datasets, please orgnize the dataset folder in the following structure:
     ```shell
@@ -87,15 +87,15 @@ We will fully release the training process and code after acceptance.
 Currently, we only publicly release the optimal trained weights for UrbanLF_Real.
 
 1.Please download the pretrained [VMamba](https://github.com/MzeroMiko/VMamba) weights:
-
-    - [VMamba_Tiny](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmtiny_dp01_ckpt_epoch_292.pth).
-    - [VMamba_Small](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmsmall_dp03_ckpt_epoch_238.pth).
-    - [VMamba_Base](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmbase_dp06_ckpt_epoch_241.pth).
-
+[      
+    - [VMamba_Tiny](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmtiny_dp01_ckpt_epoch_292.pth)
+    - [VMamba_Small](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmsmall_dp03_ckpt_epoch_238.pth)
+    - [VMamba_Base](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmbase_dp06_ckpt_epoch_241.pth)
+[
     <u> Please put them under `pretrained/vmamba/`. </u>
 
 2.Run the evaluation by:
-
+    ```shell
     ```shell
     CUDA_VISIBLE_DEVICES="0/1/2/3/..." python eval.py -d="0" -n "dataset_name" -e="epoch_number" -p="visualize_savedir"
     ```
