@@ -104,7 +104,7 @@ CUDA_VISIBLE_DEVICES="0/1/2/3/..." python eval.py -d="0" -n "dataset_name" -e="e
 
 2)We provide the best `epoth.pth` of UrbanLF_Real in the [LFS8 Project]( https://pan.baidu.com/s/122sPEJ8XOWkJKC8QmoRM-w?pwd=3trq) which is the whole project.
 
-3)You can replace `epoch_number` with `.log_final/log_UrbanLF_Real/epoth.pth`\\
+3)You can replace `epoch_number` with `.log_final/log_UrbanLF_Real/epoth.pth`\
 3.Results will be saved in `visualize_savedir` and `visualize_savedir_color` folders.
 
 ## 📧Contact
