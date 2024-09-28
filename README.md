@@ -107,7 +107,7 @@ CUDA_VISIBLE_DEVICES="0/1/2/3/..." python eval.py -d="0" -n "dataset_name" -e="e
 3)You can replace `epoch_number` with `.log_final/log_UrbanLF_Real/epoth.pth`
 
 
-3.Results will be saved in `visualize_savedir` and `visualize_savedir_color` folders.
+\3.Results will be saved in `visualize_savedir` and `visualize_savedir_color` folders.
 
 ## 📧Contact
 
