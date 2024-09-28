@@ -92,7 +92,7 @@ Currently, we only publicly release the optimal trained weights for UrbanLF_Real
 - [VMamba_Small](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmsmall_dp03_ckpt_epoch_238.pth)
 - [VMamba_Base](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmbase_dp06_ckpt_epoch_241.pth)
 
-    <u> Please put them under `pretrained/vmamba/`. </u>
+<u> Please put them under `pretrained/vmamba/`. </u>
 
 2.Run the evaluation by:
     
@@ -101,8 +101,11 @@ CUDA_VISIBLE_DEVICES="0/1/2/3/..." python eval.py -d="0" -n "dataset_name" -e="e
 ```
 
 Here, `dataset_name=UbanLF_Real/UrbanLF_Syn`, referring to the datasets.\
+
 `epoch_number` refers to a number standing for the epoch number you want to evaluate with.\
-We provide the best `epoth.pth` of UrbanLF_Real in the [LFS8 Project]( https://pan.baidu.com/s/122sPEJ8XOWkJKC8QmoRM-w?pwd=3trq 提取码: 3trq) which is the whole project.\
+
+We provide the best `epoth.pth` of UrbanLF_Real in the [LFS8 Project]( https://pan.baidu.com/s/122sPEJ8XOWkJKC8QmoRM-w?pwd=3trq) which is the whole project.\
+
 You can replace `epoch_number` with `.log_final/log_UrbanLF_Real/epoth.pth`
 
 
