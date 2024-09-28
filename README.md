@@ -17,8 +17,8 @@ We test our codebase with `PyTorch 1.13.1 + CUDA 11.7`. Please install correspon
 
 1. Create environment.
     ```shell
-    conda create -n LFSSMam python=3.9
-    conda activate LFSSMam
+    conda create -n LFS8 python=3.9
+    conda activate LFS8
     ```
 
 2. Install all dependencies.
