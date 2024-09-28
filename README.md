@@ -2,8 +2,8 @@
 <div align="center">
 <h1> LFS8: A Lightweight and Robust Light Field Semantic Segmentation Network Based on Selective Scanning Structural State Sequence Space </h1>
 
+## 👀Introduction
 
-</div>
 
 
 ## 💡Environment
@@ -75,7 +75,7 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 
 ### Training
 
-We will fully disclose the training process and code after the article confirms acceptance
+We will fully release the training process and code after acceptance.
 
 ### Evaluation
 
