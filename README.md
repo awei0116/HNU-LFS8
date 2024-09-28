@@ -43,7 +43,7 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 
     Note: The central and peripheral views need to be extracted from the original data set and grayscale values processed on RGB labels
 
-2. We also provide the processed datasets we use here: [Google Drive Link]([https://pan.baidu.com/s/1zCmVnQ7jiZ2nH3sYjjpPDg?pwd=5p8i](https://pan.baidu.com/s/1OKVlohVwRfTX3c4kM9hgXg?pwd=ifcq)
+2. We also provide the processed datasets we use here: [Google Drive Link]([https://pan.baidu.com/s/1zCmVnQ7jiZ2nH3sYjjpPDg?pwd=5p8i](https://pan.baidu.com/s/1OKVlohVwRfTX3c4kM9hgXg?pwd=ifcq))
 
 3. If you are using your own datasets, please orgnize the dataset folder in the following structure:
     ```shell
@@ -107,3 +107,7 @@ Currently, we only publicly release the optimal trained weights for UrbanLF_Real
 
 
 3.Results will be saved in `visualize_savedir` and `visualize_savedir_color` folders.
+
+## 📧Contact
+
+If you have any questions, please contact at [qingweiwu@hnu.edu.cn](qingweiwu@hnu.edu.cn).
